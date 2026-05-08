@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="What we believe at Burning Hearts Ministries — our core doctrines, charismatic faith, and statement of belief." />
+  <title>Our Beliefs — Burning Hearts Ministries</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .belief-card { background:white; border-radius:var(--radius-xl); padding:40px 36px; border:1px solid var(--color-border-light); box-shadow:var(--shadow-sm); transition:box-shadow var(--transition-base),transform var(--transition-base); }
+    .belief-card:hover { box-shadow:var(--shadow-md); transform:translateY(-3px); }
+    .belief-card__num { font-family:var(--font-heading); font-size:48px; font-weight:800; color:var(--color-accent-subtle); line-height:1; margin-bottom:16px; display:block; }
+    .belief-card__title { font-family:var(--font-heading); font-size:22px; font-weight:700; color:var(--color-primary); margin-bottom:12px; }
+    .belief-card__text { font-size:15px; color:var(--color-text-soft); line-height:1.8; }
+    .belief-card__verse { margin-top:16px; font-size:13px; font-weight:600; letter-spacing:.05em; color:var(--color-accent); }
+    .faq-item { border-bottom:1px solid var(--color-border-light); padding:24px 0; }
+    .faq-item__question { font-family:var(--font-heading); font-size:18px; font-weight:700; color:var(--color-primary); margin-bottom:10px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .faq-item__answer { font-size:15px; color:var(--color-text-soft); line-height:1.8; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="main-nav" style="background:transparent; position:fixed;" data-transparent="true">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-mark"><img src="images/bhm-logo.png" alt="BHM" /></div>
+        <div><div class="nav__logo-text">Burning Hearts</div><div class="nav__logo-sub">Ministries</div></div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="sermons.html" class="nav__link">Sermons</a></li>
+        <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="find-help.html" class="nav__link nav__link--find-help">Find Help</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="give.html" class="btn btn--secondary btn--sm">Give</a>
+        <a href="plan-visit.html" class="btn btn--primary btn--sm">Plan a Visit</a>
+        <button class="nav__menu-btn" id="menu-btn"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__close" id="mobile-nav-close">✕</button>
+    <ul class="mobile-nav__links">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+      <li><a href="sermons.html" class="mobile-nav__link">Sermons</a></li>
+      <li><a href="ministries.html" class="mobile-nav__link">Ministries</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events</a></li>
+      <li><a href="find-help.html" class="mobile-nav__link mobile-nav__link--find-help">Find Help</a></li>
+      <li><a href="plan-visit.html" class="mobile-nav__link">Plan a Visit</a></li>
+      <li><a href="give.html" class="mobile-nav__link">Give</a></li>
+      <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <div class="page-hero">
+      <span class="page-hero__label">Our Foundation</span>
+      <h1 class="page-hero__title">What We Believe</h1>
+      <p class="page-hero__subtitle">
+        Faith that is accurate, rooted in Scripture, alive in the Spirit, and transforming in everyday life.
+      </p>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div style="max-width:760px; margin:0 auto; text-align:center;" class="reveal">
+          <p style="font-size:19px; line-height:1.85; color:var(--color-text-soft);">
+            At Burning Hearts Ministries, our beliefs are not a list of religious rules — they are the living convictions
+            that set hearts ablaze. We are a charismatic, Spirit-filled community that upholds the full counsel of Scripture,
+            believes in the present-day work of the Holy Spirit, and walks in the prophetic fire of God's Word.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--warm">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Statement of Faith</span>
+          <h2>Our Core Beliefs</h2>
+          <p class="section-header__desc">Grounded in the Word. Alive in the Spirit. Burning for God.</p>
+        </div>
+        <div class="grid grid-3 reveal" style="gap:28px;">
+
+          <div class="belief-card">
+            <span class="belief-card__num">01</span>
+            <div class="belief-card__title">The Bible</div>
+            <p class="belief-card__text">We believe the Bible is the fully inspired, inerrant Word of God — the supreme authority for all matters of faith and life. Every sermon at BHM is built on the accurate teaching of Scripture.</p>
+            <div class="belief-card__verse">2 Timothy 3:16–17</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">02</span>
+            <div class="belief-card__title">The Trinity</div>
+            <p class="belief-card__text">We believe in one God, eternally existing as three persons — Father, Son, and Holy Spirit. God is holy, loving, just, and profoundly personal. He is not distant — He is near.</p>
+            <div class="belief-card__verse">Deuteronomy 6:4 · Matthew 28:19</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">03</span>
+            <div class="belief-card__title">Jesus Christ</div>
+            <p class="belief-card__text">We believe Jesus is fully God and fully human. He was born of a virgin, lived a sinless life, died on the cross for our sins, rose bodily from the dead, and will return in glory and power.</p>
+            <div class="belief-card__verse">John 1:1,14 · 1 Corinthians 15:3–4</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">04</span>
+            <div class="belief-card__title">The Holy Spirit</div>
+            <p class="belief-card__text">We believe the Holy Spirit is active today — dwelling in every believer, releasing gifts, producing fruit, empowering for service, and setting hearts on fire. The gifts of the Spirit are for the church now.</p>
+            <div class="belief-card__verse">Acts 1:8 · 1 Corinthians 12:4–11</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">05</span>
+            <div class="belief-card__title">Salvation by Grace</div>
+            <p class="belief-card__text">We believe every person is made in God's image but fallen through sin. Salvation is a free gift — received through faith in Jesus Christ alone, not through human effort, tradition, or ritual.</p>
+            <div class="belief-card__verse">Ephesians 2:8–9 · Romans 3:23</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">06</span>
+            <div class="belief-card__title">Divine Ordination</div>
+            <p class="belief-card__text">We believe every believer has a God-given divine ordination — a purpose and calling that God wants them to walk in victoriously. Discovering and fulfilling this calling is central to the BHM vision.</p>
+            <div class="belief-card__verse">Jeremiah 29:11 · Ephesians 2:10</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">07</span>
+            <div class="belief-card__title">Prophetic Ministry</div>
+            <p class="belief-card__text">We believe the prophetic gift is active in the church today. God still speaks through anointed voices to bring direction, encouragement, correction, and revelation to his people.</p>
+            <div class="belief-card__verse">1 Corinthians 14:3 · Amos 3:7</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">08</span>
+            <div class="belief-card__title">Healing &amp; Restoration</div>
+            <p class="belief-card__text">We believe God heals — spirit, soul, and body. The ministry of healing is part of the gospel of the Kingdom. We pray for the sick and believe God's power is available for total restoration today.</p>
+            <div class="belief-card__verse">Isaiah 53:5 · James 5:14–15</div>
+          </div>
+
+          <div class="belief-card">
+            <span class="belief-card__num">09</span>
+            <div class="belief-card__title">The Global Church</div>
+            <p class="belief-card__text">We believe in the global body of Christ — one Church across nations, cultures, and languages. BHM is called to take the fire of God's presence to all peoples, all nations, and all generations.</p>
+            <div class="belief-card__verse">Matthew 28:19 · Revelation 7:9</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="scripture-banner">
+      <p class="scripture-banner__text">
+        "For the word of God is alive and active. Sharper than any double-edged sword,<br>it penetrates even to dividing soul and spirit."
+      </p>
+      <p class="scripture-banner__ref">Hebrews 4:12</p>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+          <div class="reveal">
+            <span class="section-header__label">Who We Are</span>
+            <h2 style="margin-bottom:20px;">Fire Without Compromise</h2>
+            <p style="font-size:17px; line-height:1.9; color:var(--color-text-soft); margin-bottom:20px;">
+              We are a non-denominational, charismatic church. We hold to the full authority of Scripture
+              while embracing the present-day work of the Holy Spirit — including prophecy, tongues, healing, and miracles.
+            </p>
+            <p style="font-size:17px; line-height:1.9; color:var(--color-text-soft); margin-bottom:20px;">
+              We welcome seekers, the broken, the questioning, and the hungry. We believe God is not afraid of
+              your doubts — but He does have answers that will set your heart on fire.
+            </p>
+            <p style="font-size:17px; line-height:1.9; color:var(--color-text-soft); margin-bottom:32px;">
+              If religion has disappointed you but you're still looking for the real God — you are exactly who we want to sit with.
+            </p>
+            <a href="plan-visit.html" class="btn btn--primary btn--lg">Come and Encounter God</a>
+          </div>
+          <div class="reveal" style="display:flex; flex-direction:column; gap:20px;">
+            <div style="background:var(--color-warm); border-radius:var(--radius-xl); padding:32px; border-left:4px solid var(--color-accent);">
+              <p style="font-family:'Playfair Display',serif; font-style:italic; font-size:17px; color:var(--color-primary); line-height:1.7; margin-bottom:8px;">
+                "Were not our hearts burning within us while he talked with us on the road?"
+              </p>
+              <p style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--color-accent);">Luke 24:32</p>
+            </div>
+            <div style="background:linear-gradient(135deg, #8B0F1A, #C41E2E); border-radius:var(--radius-xl); padding:32px;">
+              <p style="font-family:'Playfair Display',serif; font-style:italic; font-size:17px; color:rgba(255,255,255,0.9); line-height:1.7; margin-bottom:8px;">
+                "I have come to bring fire on the earth, and how I wish it were already kindled!"
+              </p>
+              <p style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--color-accent-light);">Luke 12:49</p>
+            </div>
+            <div style="background:var(--color-warm); border-radius:var(--radius-xl); padding:32px; border-left:4px solid var(--color-hope);">
+              <p style="font-family:'Playfair Display',serif; font-style:italic; font-size:17px; color:var(--color-primary); line-height:1.7; margin-bottom:8px;">
+                "You will seek me and find me when you seek me with all your heart."
+              </p>
+              <p style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--color-hope);">Jeremiah 29:13</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--warm">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Common Questions</span>
+          <h2>Things People Often Ask</h2>
+        </div>
+        <div style="max-width:760px; margin:0 auto;" class="reveal">
+          <div class="faq-item">
+            <div class="faq-item__question">Do I have to be a Christian to attend BHM?</div>
+            <p class="faq-item__answer">Not at all. We welcome people at every stage of faith. Come, explore, ask questions. We believe in a God who meets you wherever you are — and we want to be a church that does the same.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__question">What denomination is BHM?</div>
+            <p class="faq-item__answer">We are a non-denominational, charismatic church. We believe in the full gospel of Jesus Christ, the authority of Scripture, and the present-day power of the Holy Spirit. We are not defined by a label — we are defined by the fire.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__question">Do you believe in spiritual gifts and prophecy today?</div>
+            <p class="faq-item__answer">Yes. We believe the gifts of the Holy Spirit — including prophecy, tongues, healing, and miracles — are for the church today. We operate in these gifts with wisdom, scriptural accuracy, and accountability.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__question">What do you mean by "divine ordination"?</div>
+            <p class="faq-item__answer">We believe God has a specific purpose and calling for every person's life — a divine ordination they were created to walk in victoriously. At BHM, we teach and equip believers to discover and step into that purpose through the power of the Word and the Spirit.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-item__question">How do I learn more about what BHM believes?</div>
+            <p class="faq-item__answer">The best way is to come on a Sunday and experience it. You can also listen to Pastor Elvis's sermons on YouTube (@bhm_global), Apple Podcasts, or Spotify. Or reach out directly — we'd love to connect with you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--color-primary); padding:80px 0; text-align:center;">
+      <div class="container reveal">
+        <div style="max-width:560px; margin:0 auto;">
+          <span class="section-header__label" style="color:var(--color-accent-light);">Next Steps</span>
+          <h2 style="color:white; margin-bottom:20px;">Questions? We'd Love to Talk.</h2>
+          <p style="color:rgba(255,255,255,0.65); font-size:18px; line-height:1.7; margin-bottom:36px;">Whether you're curious, searching, or ready to encounter God — our pastors are here. No pressure. Just fire and truth.</p>
+          <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+            <a href="plan-visit.html" class="btn btn--white btn--lg">Plan a Visit</a>
+            <a href="contact.html" class="btn btn--ghost btn--lg">Contact a Pastor</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo"><div class="footer__logo-mark"><img src="images/bhm-logo.png" alt="BHM" /></div><span class="footer__logo-name">Burning Hearts Ministries</span></a>
+          <p class="footer__tagline">Setting hearts on fire for God all over the world.</p>
+          <div class="footer__service-times">
+            <div class="footer__service-time"><span>Sunday Service</span><span>9:00 AM</span></div>
+            <div class="footer__service-time"><span>Location</span><span>Ikeja, Lagos</span></div>
+          </div>
+        </div>
+        <div><h4 class="footer__col-title">Explore</h4><ul class="footer__links"><li><a href="about.html" class="footer__link">About Us</a></li><li><a href="beliefs.html" class="footer__link">Our Beliefs</a></li><li><a href="ministries.html" class="footer__link">Ministries</a></li><li><a href="sermons.html" class="footer__link">Sermons</a></li></ul></div>
+        <div><h4 class="footer__col-title">Connect</h4><ul class="footer__links"><li><a href="plan-visit.html" class="footer__link">Plan a Visit</a></li><li><a href="give.html" class="footer__link">Give Online</a></li><li><a href="contact.html#prayer" class="footer__link">Prayer Request</a></li><li><a href="contact.html" class="footer__link">Contact Us</a></li></ul></div>
+        <div><h4 class="footer__col-title">Find Us</h4><ul class="footer__links"><li><span class="footer__link" style="cursor:default;color:rgba(255,255,255,0.55);">Oluwalogbon House, Plot A<br>Obafemi Awolowo Way<br>Ikeja, Lagos, Nigeria</span></li><li style="margin-top:8px;"><a href="tel:+2348143085990" class="footer__link">+234 814 308 5990</a></li><li><a href="mailto:bhmglobal@gmail.com" class="footer__link">bhmglobal@gmail.com</a></li></ul></div>
+      </div>
+      <div class="footer__bottom"><p>© 2026 Burning Hearts Ministries. All rights reserved.</p><div style="display:flex;gap:16px;"><a href="#" class="footer__link" style="font-size:13px;">Privacy</a><a href="#" class="footer__link" style="font-size:13px;">Terms</a></div></div>
+    </div>
+  </footer>
+  <a href="https://wa.me/2348143085990" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="white"/></svg></a>
+  <script src="js/main.js"></script>
+</body>
+</html>
