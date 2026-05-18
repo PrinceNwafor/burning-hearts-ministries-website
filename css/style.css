@@ -1784,6 +1784,7 @@ blockquote {
   line-height: 1.7;
   margin-bottom: var(--space-5);
   max-width: 280px;
+  color: white;
 }
 
 .footer__socials {
@@ -1843,7 +1844,7 @@ blockquote {
   justify-content: space-between;
   gap: var(--space-4);
   font-size: var(--text-sm);
-  color: rgba(255,255,255,0.40);
+  color: white;
 }
 
 .footer__service-times {
