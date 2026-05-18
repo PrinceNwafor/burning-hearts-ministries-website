@@ -359,9 +359,15 @@
      -------------------------------------------------------------------------- */
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav__link').forEach(link => {
-    const href = link.getAttribute('href');
+    const href = link.getAttribute('href').split('#')[0];
     if (href === currentPage || (currentPage === '' && href === 'index.html')) {
       link.classList.add('nav__link--active');
+    }
+  });
+  document.querySelectorAll('.mobile-nav__link').forEach(link => {
+    const href = link.getAttribute('href').split('#')[0];
+    if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+      link.classList.add('mobile-nav__link--active');
     }
   });
 

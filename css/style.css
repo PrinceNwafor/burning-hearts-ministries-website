@@ -384,7 +384,6 @@ blockquote {
 }
 
 .nav__link--find-help {
-  color: var(--color-accent) !important;
   font-weight: 600;
 }
 
@@ -425,6 +424,7 @@ blockquote {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--transition-smooth);
@@ -448,23 +448,21 @@ blockquote {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-6);
+  gap: var(--space-5);
   text-align: center;
+  padding: 80px var(--space-8) var(--space-10);
 }
 
 .mobile-nav__link {
   font-family: var(--font-heading);
-  font-size: var(--text-3xl);
+  font-size: clamp(1.5rem, 5vh, 1.875rem);
   color: rgba(255,255,255,0.85);
   font-weight: 700;
   transition: color var(--transition-fast);
 }
 
-.mobile-nav__link:hover { color: var(--color-accent); }
-
-.mobile-nav__link--find-help {
-  color: var(--color-accent-light);
-}
+.mobile-nav__link:hover,
+.mobile-nav__link--active { color: var(--color-accent); }
 
 /* --------------------------------------------------------------------------
    6. BUTTONS & CTAs
