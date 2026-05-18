@@ -393,6 +393,18 @@ blockquote {
   gap: var(--space-4);
 }
 
+/* Give button turns white when nav is red/transparent, reverts when nav turns white */
+.nav:not(.nav--scrolled) .nav__actions .btn--secondary {
+  color: white;
+  border-color: white;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+.nav:not(.nav--scrolled) .nav__actions .btn--secondary:hover {
+  background: rgba(255,255,255,0.15);
+  color: white;
+}
+
 .nav__menu-btn {
   display: none;
   flex-direction: column;
